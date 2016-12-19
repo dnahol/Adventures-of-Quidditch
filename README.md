@@ -1,6 +1,6 @@
 #Adventures of Quidditch the Dog
 Point and click adventure game about Quidditch the Dog.
-Quidditch the dog wants cuddles all day. Unfortunately, being a large boxer dog,
+Quidditch the Dog wants cuddles all day. Unfortunately, being a large boxer dog,
 he has grown too large to be a lap dog.
 
 Fortunately, Quidditch is as smart and determined as he is cute. He is devising
