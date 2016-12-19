@@ -1,0 +1,29 @@
+{
+  "name": "tribute-page",
+  "authors": [
+    "dlzn <dlznsites@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-bootstrap": "^1.3.2",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "angular-ui-router": "ui-router#^0.3.0",
+    "bootswatch-dist": "lumen",
+    "api-check": "^7.5.5",
+    "sweetalert": "^1.1.3",
+    "angular-material": "^1.1.1"
+  },
+  "resolutions": {
+    "angular": "1.5.5"
+  }
+}
