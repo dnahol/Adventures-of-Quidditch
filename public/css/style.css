@@ -1,0 +1,7 @@
+.image-map{
+  position: relative;
+}
+.image-map a{
+  display: block;
+  position: absolute;
+}
