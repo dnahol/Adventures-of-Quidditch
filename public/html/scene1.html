@@ -1,10 +1,14 @@
 <h1>Scene 1</h1>
 
-<div class='image-map'>
+<div class='image-map' ng-init="status= 'Look around!' ">
 
   <img src="../images/sanJoseZoo.jpg" width=100% height=100% alt="Zoo"/>
-  <a ui-sref="scene2" style="top: 50%; left: 20%; width: 20%; height: 20%;">
-    <a ui-sref="scene3" style="top: 50%; left: 50%; width: 10%; height: 22%;">
-      <a ui-sref="scene4" style="top: 50%; left: 75%; width: 20%; height: 25%;">
+  <a ng-click="status = 'Door 1'"   data-display="bottom"  style="top: 50%; left: 20%; width: 20%; height: 20%;">
+    <a onclick="Materialize.toast('Door 2', 1000, 'rounded')" ui-sref="scene3" style="top: 50%; left: 50%; width: 10%; height: 22%;">
+      <a onclick="Materialize.toast('Door 3', 1000, 'rounded')" ui-sref="scene4" style="top: 50%; left: 75%; width: 20%; height: 25%;">
 
       </div>
+
+<div id="statusBar">{{status}}</div>
+
+<div id="inventory">Inventory</div>

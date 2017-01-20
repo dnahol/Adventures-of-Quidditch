@@ -5,3 +5,24 @@
   display: block;
   position: absolute;
 }
+
+#statusBar {
+  border-style: solid;
+  border-color: red;
+  border-width: medium;
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  padding-left: 5%;
+}
+
+#inventory {
+  border-style: solid;
+  border-color: red;
+  border-width: medium;
+  background-color: black;
+  color: white;
+  font-size: 200%;
+  padding-left: 3%;
+  height: 100px;
+}
